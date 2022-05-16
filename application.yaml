@@ -13,8 +13,8 @@ spec:
     path: dev
   destination: 
     server: https://kubernetes.default.svc
-    namespace: myapp
-
+    namespace: myapp, myapp2
+    
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
